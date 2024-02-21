@@ -7,11 +7,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 
-        <title>Lab 4</title>
+        <title>Lab 5</title>
     </head>
     <body>
         <h1>
-            Lab 4 App
+            Lab 5
         </h1>
         <br/>
         
@@ -40,7 +40,7 @@
         </h2>
         <form id="sub">
             <label for="tname">Subscription Topic:</label><br>
-            <input type="text" id="tname" name="tname" value="ENGO651/michael_shi/my_temperature" style="width:400px"><br><br>
+            <input type="text" id="tname" name="tname" value="engo651/zhiqiangjiang/my_temperature" style="width:400px"><br><br>
             <input type="button" value="Subscribe" onclick="subscribeTopic()"><br><br>
         </form>
         <p id="substatus"></p>
@@ -69,10 +69,10 @@
         </h3>
         <form id="stat">
             <label for="coursename">Course:</label><br>
-            <input type="text" id="crsname" name="crsname" value="ENGO651"><br><br>
+            <input type="text" id="crsname" name="crsname" value="engo651"><br><br>
             <p>+</p>
             <label for="yourname">Your Name:</label><br>
-            <input type="text" id="yrname" name="yrname" value="michael_shi"><br><br>
+            <input type="text" id="yrname" name="yrname" value="zhiqiangjiang"><br><br>
             <p>+</p>
             <em>my_temperature</em><br><br>
             <input type="button" value="Share My Status" onclick="shareStatus()"><br><br>

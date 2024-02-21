@@ -286,11 +286,11 @@ function shareStatus() {
 
         var name = document.forms["stat"]["yrname"].value;
         if(name == ""){
-            name = "michael_shi";
+            name = "zhiqiangjiang";
         }
         var course = document.forms["stat"]["crsname"].value;
         if(course == ""){
-            course = "ENGO651";
+            course = "engo651";
         }
         var topic = course + "/" + name + "/my_temperature";
         var msgjson = new Paho.MQTT.Message(geojson);
