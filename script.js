@@ -193,12 +193,12 @@ function resetFields() {
 //     tileSize: 512,
 //     zoomOffset: -1
 // }).addTo(map);
-var map = L.map('map').setView([51.032077, -114.052983], 22);
+var map = L.map('map').setView([51.032077, -114.052983], 5);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
-map.setZoom(22);
-console.log("Map created.");
+map.setZoom(5);
+//console.log("Map created.");
 
 // Icons
 var greenIcon = new L.Icon({
