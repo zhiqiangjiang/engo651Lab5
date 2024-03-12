@@ -193,11 +193,11 @@ function resetFields() {
 //     tileSize: 512,
 //     zoomOffset: -1
 // }).addTo(map);
-var map = L.map('map').setView([51.032077, -114.052983], 25);
+var map = L.map('map').setView([51.032077, -114.052983], 15);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
-map.setZoom(25);
+map.setZoom(15);
 //console.log(map.getZoom());
 
 // Icons
